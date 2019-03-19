@@ -1,0 +1,13 @@
+Package: libmali-bifrost-g31-rxp0-wayland-gbm
+Source: libmali-rk
+Version: 1.6-2
+Architecture: arm64
+Maintainer: Caesar Wang <wxt@rock-chips.com>
+Installed-Size: 10
+Replaces: libegl1, libgbm1, libgles1, libgles2, libmali-bifrost-g31-rxp0-gbm.so, libmali-bifrost-g31-rxp0-wayland-gbm.so, libopencl1, libwayland-egl1
+Provides: libegl1, libgbm1, libgles1, libgles2, libopencl1, libwayland-egl1
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: http://www.rock-chips.com/
+Description: The mali library for Rockchip RK3326/PX30.

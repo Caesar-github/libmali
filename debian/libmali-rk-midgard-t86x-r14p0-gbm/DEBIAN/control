@@ -1,0 +1,14 @@
+Package: libmali-rk-midgard-t86x-r14p0-gbm
+Source: libmali-rk
+Version: 1.6-2
+Architecture: arm64
+Maintainer: Caesar Wang <wxt@rock-chips.com>
+Installed-Size: 25673
+Depends: libc6 (>= 2.17), libdrm2 (>= 2.3.1), libgcc1 (>= 1:3.4), libstdc++6 (>= 4.8)
+Replaces: libegl1, libgbm1, libgles1, libgles2, libmali-rk-midgard-t86x-r14p0, libmali-rk-midgard-t86x-r14p0-wayland, libopencl1
+Provides: libegl1, libgbm1, libgles1, libgles2, libopencl1
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: http://www.rock-chips.com/
+Description: The mali library for Rockchip RK3399 GBM.

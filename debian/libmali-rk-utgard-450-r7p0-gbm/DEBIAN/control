@@ -1,0 +1,14 @@
+Package: libmali-rk-utgard-450-r7p0-gbm
+Source: libmali-rk
+Version: 1.6-2
+Architecture: arm64
+Maintainer: Caesar Wang <wxt@rock-chips.com>
+Installed-Size: 1545
+Depends: libc6 (>= 2.17)
+Replaces: libegl1, libgbm1, libgles1, libgles2, libmali-rk-utgard-2th-r7p0, libmali-rk-utgard-450-r7p0, libmali-rk-utgard-450-r7p0-wayland, libmali-utgard-450-r7p0-r0p0-wayland, libopencl1
+Provides: libegl1, libgbm1, libgles1, libgles2, libopencl1
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: http://www.rock-chips.com/
+Description: The mali library for Rockchip RK3328 GBM.

@@ -1,0 +1,13 @@
+Package: libmali-rk-bifrost-g31-rxp0-wayland-gbm
+Source: libmali-rk
+Version: 1.6-2
+Architecture: arm64
+Maintainer: Randy Li <randy.li@rock-chips.com>
+Installed-Size: 38038
+Depends: libc6 (>= 2.17), libdrm2 (>= 2.3.1), libgcc1 (>= 1:3.0), libstdc++6 (>= 4.9), libwayland-client0 (>= 1.9.91), libwayland-server0 (>= 1.2.0)
+Replaces: libegl1-mesa, libegl1-x11, libgbm1, libgles2-mesa, libwayland-egl1-mesa
+Provides: libegl1, libegl1-mesa, libgbm1, libgles2-mesa, libwayland-egl1-mesa
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: http://www.rock-chips.com/
