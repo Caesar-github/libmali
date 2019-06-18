@@ -1,3 +1,9 @@
+libmali-rk (1.6-3) testing; urgency=medium
+
+  * Fixup glPolygonOffset
+
+ -- Caesar Wang <wxt@rock-chips.com>  Tue, 18 Jun 2019 14:35:46 +0800
+
 libmali-rk (1.6-2) testing; urgency=medium
 
   * Store all binaries under original name, and always use symlinks
